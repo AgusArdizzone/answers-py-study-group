@@ -25,7 +25,8 @@ def detectar_secuencias(cadena):
             print(cadena)
             hay_secuencias = hay_codones_oblig(cadena)
         return cont
-# detecta una sola cadena,ta roto
+# cuando dos codones oblig estan unidos,los toma igual. EJ AUGA
+# hay que arreglar eso viendo si el codon del comienzo y el del final estan en el mismo espacio
 
         
     
